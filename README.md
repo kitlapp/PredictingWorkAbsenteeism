@@ -5,6 +5,17 @@ This project provided an excellent opportunity to expand my skills in areas I ha
 
 This project showcases the practical application of logistic regression in human resource management. Accurate predictions of employee absences enable organizations to effectively distribute resources and implement strategies to reduce absenteeism, boosting productivity and operational efficiency.
 
+Files Included:
+1) Original Dataset: Absenteeism_data.csv
+2) Original Cleaned Dataset: cleaned_data.csv
+3) New Dataset for Model Deployment: Absenteeism_new_data.csv
+4) New Dataset for Model Deployment (Cleaned): cleaned_new_data.csv
+5) Results of Model Deployment on New Data: test_results.csv
+6) Original Dataset Preprocessing: absenteeism_data_cleaning.ipynb
+7) Original Dataset Model: absenteeism_model.ipynb
+8) New Dataset Preprocessing: abs_new_data_cleaning.ipynb
+9) New Dataset Model Deployment: abs_new_data_model_test.ipynb
+
 What I gained from this project?
 1) Performed detailed data cleaning and feature engineering, including creating new features, one-hot encoding, and generating dummy variables.
 2) Applied logistic regression models by converting the target variable into binary form.
