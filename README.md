@@ -15,6 +15,7 @@ Files Included:
 7) Original Dataset Model: absenteeism_model.ipynb
 8) New Dataset Preprocessing: abs_new_data_cleaning.ipynb
 9) New Dataset Model Deployment: abs_new_data_model_test.ipynb
+10) Project Python Scripts: absenteeism_scripts.py
 
 What I gained from this project?
 1) Performed detailed data cleaning and feature engineering, including creating new features, one-hot encoding, and generating dummy variables.
