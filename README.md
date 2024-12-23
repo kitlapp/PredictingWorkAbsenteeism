@@ -1,26 +1,27 @@
-# log_reg_absenteeism
-The project aims to forecast employee absences using logistic regression, leveraging data preprocessing and feature selection to enhance model accuracy.
+# Logistic Regression Model for Human Resources Management
+It contains a Logistic Regression model developed for human resources management purposes. The workflow begins with data cleaning and scaling, followed by training an initial model. GridSearchCV was employed for hyperparameter tuning to optimize performance. The best model and the associated scaler were saved, simulating professional deployment processes. Finally, the trained model and scaler were deployed for making predictions on new, unseen data.
 
-This project provided an excellent opportunity to expand my skills in areas I hadn't previously explored. I cleaned and processed the data, developed various logistic regression models, and saved the best-performing model along with its scaler. I then applied the same preprocessing steps to new and unseen data and utilized the saved model and scaler to make predictions, displaying the final results on screen.
+## FILES INCLUDED:
+1. Data Files (X 4):
+* Original training and testing file (.csv)
+* Corresponding cleaned data file (.csv)
+* Original and unseen data files for model deployment (.csv)
+* Corresponding cleaned files (.csv)
+2. Core Jupyter Files (X 4):
+* Files named sequentially to indicate the execution order
+--> I clear the cell outputs in Jupyter to maintain a clean code appearance. Please follow the instructions below to see how my code is executed.
+3. Python file (.py) which contains the custom functions X 1.
+4. Deployment files X 2
+5. The README File
+--> 12 Files in Total <--
 
-This project showcases the practical application of logistic regression in human resource management. Accurate predictions of employee absences enable organizations to effectively distribute resources and implement strategies to reduce absenteeism, boosting productivity and operational efficiency.
-
-Files Included:
-1) Original Dataset: Absenteeism_data.csv
-2) Original Cleaned Dataset: cleaned_data.csv
-3) New Dataset for Model Deployment: Absenteeism_new_data.csv
-4) New Dataset for Model Deployment (Cleaned): cleaned_new_data.csv
-5) Results of Model Deployment on New Data: test_results.csv
-6) Original Dataset Preprocessing: absenteeism_data_cleaning.ipynb
-7) Original Dataset Model: absenteeism_model.ipynb
-8) New Dataset Preprocessing: abs_new_data_cleaning.ipynb
-9) New Dataset Model Deployment: abs_new_data_model_test.ipynb
-10) Project Python Scripts: absenteeism_scripts.py
-
-What I gained from this project?
-1) Performed detailed data cleaning and feature engineering, including creating new features, one-hot encoding, and generating dummy variables.
-2) Applied logistic regression models by converting the target variable into binary form.
-3) Saved the model and scaler, and applied them to new, unseen data, simulating real-life data science scenarios.
-4) Conducted hyperparameter tuning using GridSearchCV to optimize model performance.
-
-Thank you for your reading!
+## HOW TO SET UP THE ENVIRONMENT:
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+--> conda create --name 'YourEnvName' python=3.12.4 jupyterlab=4.2.4 joblib=1.4.2 numpy=2.0.0 pandas=2.2.2 matplotlib=3.9.1 seaborn=0.13.2 scikit-learn=1.5.1 -c conda-forge
+3. Activate the newly-created environment.
+4. Launch Jupyter via Anaconda Prompt.
+5. Open and execute the project's Jupyter notebooks in the following sequence: run_first, run_second, etc.
+6. Enjoy!
+   
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <--
